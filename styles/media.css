@@ -1,0 +1,164 @@
+@media (max-width: 1200px) {
+    .header__nav .container {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .left__watch {
+        padding: 0;
+        width: 465px;
+        height: 294px;
+        justify-content: space-evenly;
+    }
+
+    .sale {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main__left {
+        flex-wrap: wrap;
+    }
+
+    .left__watch {
+        width: 665px;
+    }
+
+    .last__news {
+        flex-wrap: wrap;
+    }
+    
+    .bottom {
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+}
+@media (max-width: 770px) {
+    .header__search {
+        flex-wrap: wrap;
+    }
+    .header__list {
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .left__watch {
+        width: 550px;
+    }
+    .watch {
+        width: 550px;
+    }
+    .last__news-block {
+        width: 550px;
+    }
+    .bottom {
+        justify-content: center;
+    }
+    .footer .container {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+    .footer__item {
+        text-align: center;
+    }
+    .footer__name {
+        text-align: center;
+    }
+    .footer__content p {
+        text-align: center;
+    }
+    .footer__contact {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .main__right {
+        width: 100%;
+    }
+}
+@media (max-width:576px) {
+    .last__bottom {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .left__watch {
+        flex-wrap: wrap;
+        padding: 40px 20px;
+        height: 400px;
+    }
+    .watch__info{
+        display: flex;
+        flex-direction: column;
+        gap: 20.5px;
+        align-items: center;
+    }
+    .name, .main__title {
+        font-size: 20px;
+    }
+    .name {
+        text-align: center;
+    }
+    .pol, .price {
+        font-size: 15px;
+    }
+    .main__right{
+        display: flex;
+        flex-direction: column;
+        gap: 20.5px;
+        align-items: center;   
+        justify-content: space-evenly;
+        height: 400px;
+        flex-wrap: wrap;
+    }
+    .main__right img {
+        width: 200px;
+    }
+    .main__content {
+        width: 100%;
+    }
+    .main__top-left__watch {
+        width: 100%;
+    }
+    .watch {
+        width: 100%;
+    }
+    .main__title, .more{
+        font-size: 20px;
+    }
+    .main__right {
+        padding: 0;
+    }
+    .left__watch{
+        width: 100%;
+    }
+    .last__text {
+        margin-bottom: 15px;
+    }
+    .last__news-block {
+        padding: 100px 20px;
+    }
+    .shop__icon img {
+        width: 35px;
+    }
+    .main__shop {
+        gap: 10px;
+    }
+    .name {
+        font-size: 20px;
+        text-align: center;
+    }
+    .main__watch-pol {
+        font-size: 15px;
+    }
+    .main__watch-price {
+        font-size: 15px;
+    }
+    .footer .container {
+        gap: 40px;
+    }
+}
